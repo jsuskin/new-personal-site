@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+  margin-top: 6.66%;
+  .about-me {
+    text-align: justify;
+    padding: 10px 30px;
+    font-size: 1.333em;
+
+    span {
+      // float: left;
+      img {
+        // max-width: 100%;
+        // max-height: 100%;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .home {
+    display: block;
+    padding: 30px;
+    margin: 0;
+    .about-me {
+      font-size: 1.1em;
+      // text-align: justify;
+    }
+  }
+}

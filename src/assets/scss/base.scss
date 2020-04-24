@@ -1,0 +1,53 @@
+@import "./toolbar";
+@import "./projects";
+@import "./skills";
+@import "./contact";
+@import "./about";
+@import "./mixins";
+@import url("https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap');
+
+$home-image: url(../img/background.jpg);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inria Sans', sans-serif;
+}
+
+body {
+  @include background;
+  height: 100%;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(#333, 0.7);
+}
+
+hr {
+  width: 100%;
+  border: 1.5px solid rgba(#333, 0.2);
+  border-radius: 30%;
+}
+
+.page-header {
+  letter-spacing: 10px;
+  font-size: 2.8em;
+  opacity: 0.2;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 759px) {
+  .content {
+    margin-left: 60px;
+  }
+}
