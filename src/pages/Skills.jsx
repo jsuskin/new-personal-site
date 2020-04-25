@@ -15,6 +15,7 @@ export default function Skills() {
     "GraphQL",
     "HTML",
     "CSS",
+    "Sass",
     "CLI",
     "Jest",
   ];
