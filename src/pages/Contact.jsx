@@ -14,7 +14,7 @@ export default function Contact() {
         <p>
           <span className='contact-type'>Phone</span>
           
-          <a href='tel:+3478605770'>347-860-5770</a>
+          <a href='tel:3478605770'>347-860-5770</a>
         </p>
         <p>
           <span className='contact-type'>LinkedIn</span>
