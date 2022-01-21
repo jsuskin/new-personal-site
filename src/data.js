@@ -1,15 +1,26 @@
 export const projects = [
   {
+    name: "Memories App",
+    description: "Full-Stack responsive MERN CRUD app with photo upload capability.",
+    url: "https://gifted-lamarr-4d5555.netlify.app/",
+    github: {
+      frontend: "https://github.com/jsuskin/memories-frontend",
+      backend: "https://github.com/jsuskin/memories-backend",
+    },
+    demo: "",
+    screenshot: ""
+  },
+  {
     name: "Scalar",
     description:
       "A guitar scale generator application for guitarists to use as a reference tool when practicing or writing songs.",
     url: "http://scalar.netlify.com",
     github: {
       frontend: "https://github.com/jsuskin/scalar-app",
-      backend: "https://github.com/jsuskin/scalar"
+      backend: "https://github.com/jsuskin/scalar",
     },
     demo: "",
-    screenshot: ""
+    screenshot: "",
   },
   {
     name: "Shapebox",
@@ -18,10 +29,10 @@ export const projects = [
     url: "",
     github: {
       frontend: "https://github.com/jsuskin/shapebox-app",
-      backend: "https://github.com/jsuskin/shapebox"
+      backend: "https://github.com/jsuskin/shapebox",
     },
     demo: "https://youtu.be/IEsGCYRMgsQ",
-    screenshot: ""
+    screenshot: "",
   },
   {
     name: "Duodenarium",
@@ -30,10 +41,10 @@ export const projects = [
     url: "https://duodenarium-app.herokuapp.com/",
     github: {
       frontend: "https://github.com/jsuskin/Duodenarium-app",
-      backend: "https://github.com/jsuskin/Duodenarium"
+      backend: "https://github.com/jsuskin/Duodenarium",
     },
     demo: "",
-    screenshot: ""
+    screenshot: "",
   },
   {
     name: "JamBuddy",
@@ -42,7 +53,7 @@ export const projects = [
     url: "",
     github: "https://github.com/jsuskin/jambuddy",
     demo: "https://youtu.be/0-YzlOUU1Ro",
-    screenshot: ""
+    screenshot: "",
   },
   {
     name: "Stenographer",
@@ -51,6 +62,6 @@ export const projects = [
     url: "",
     github: "https://github.com/occipudding/the-stenographer-app",
     demo: "https://youtu.be/GPBs9Tct6HA",
-    screenshot: ""
-  }
+    screenshot: "",
+  },
 ];
