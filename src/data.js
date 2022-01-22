@@ -1,14 +1,24 @@
 export const projects = [
   {
+    name: "Josh, Paper, Scissors",
+    description:
+      "Rock, Paper, Scissors front-end application built with CRA according to specs provided by frontendmentor.io.",
+    url: "https://josh-paper-scissors.netlify.app/",
+    github: "https://github.com/jsuskin/josh-paper-scissors",
+    demo: "",
+    screenshot: "",
+  },
+  {
     name: "Memories App",
-    description: "Full-Stack responsive MERN CRUD app with photo upload capability.",
+    description:
+      "Full-Stack responsive MERN CRUD app with photo upload capability.",
     url: "https://gifted-lamarr-4d5555.netlify.app/",
     github: {
       frontend: "https://github.com/jsuskin/memories-frontend",
       backend: "https://github.com/jsuskin/memories-backend",
     },
     demo: "",
-    screenshot: ""
+    screenshot: "",
   },
   {
     name: "Scalar",
