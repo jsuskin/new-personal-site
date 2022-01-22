@@ -2,8 +2,21 @@ import witwScreenshot from "./assets/img/project-screenshots/where-in-the-world.
 import scalarScreenshot from "./assets/img/project-screenshots/scalar.png";
 import jpsScreenshot from "./assets/img/project-screenshots/josh-paper-scissors.png";
 import mammoriesScreenshot from "./assets/img/project-screenshots/mammories.png";
+import rtcChatScreenshot from "./assets/img/project-screenshots/web-rtc-video-chat.png";
 
 export const projects = [
+  {
+    name: "Web RTC Video Chat App",
+    description:
+      "Full-stack, responsive video chat app built with React on the frontend and NodeJS on the backend utilizing ExpressJS and Socket.io.",
+    url: "https://dazzling-perlman-5fe0e6.netlify.app/",
+    github: {
+      frontend: "https://github.com/jsuskin/web-rtc-chat-app-client",
+      backend: "https://github.com/jsuskin/web-rtc-chat-app-server",
+    },
+    demo: "",
+    screenshot: rtcChatScreenshot,
+  },
   {
     name: "Where In The World",
     description:
