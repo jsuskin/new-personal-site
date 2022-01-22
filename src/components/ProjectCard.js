@@ -13,13 +13,15 @@ export default function ProjectCard({ project, idx }) {
         <div className='project-screenshot'>
           <a href={project.url} target='_blank' rel='noreferrer noopener'>
             <img
+              className='project-screenshot-img'
               src={project.screenshot}
               alt={`${project.name} screenshot`}
-              style={{ width: "66.6%", height: "auto" }}
             />
           </a>
         </div>
-      ) : <></>}
+      ) : (
+        <></>
+      )}
 
       <p className='description'>{project.description}</p>
       {project.url.length ? (

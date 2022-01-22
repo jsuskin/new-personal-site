@@ -113,6 +113,11 @@
   }
 }
 
+.project-screenshot-img {
+  width: 66.6%;
+  height: auto;
+}
+
 .player-wrapper {
   position: relative;
   // border: 1px solid red;
@@ -157,5 +162,9 @@
         font-size: 1.666rem;
       }
     }
+  }
+
+  .project-screenshot-img {
+    width: 93.33%;
   }
 }
