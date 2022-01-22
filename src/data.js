@@ -1,21 +1,26 @@
+import witwScreenshot from "./assets/img/project-screenshots/where-in-the-world.png";
+import scalarScreenshot from "./assets/img/project-screenshots/scalar.png";
+import jpsScreenshot from "./assets/img/project-screenshots/josh-paper-scissors.png";
+import mammoriesScreenshot from "./assets/img/project-screenshots/mammories.png";
+
 export const projects = [
   {
     name: "Where In The World",
     description:
-      "REST Countries API frontend project with search functionality and color theme switcher.",
+      "Responsive REST Countries API frontend project with search functionality and color theme switcher.",
     url: "https://keen-jepsen-6a3830.netlify.app/",
     github: "https://github.com/jsuskin/where-in-the-world",
     demo: "",
-    screenshot: "",
+    screenshot: witwScreenshot,
   },
   {
     name: "Josh, Paper, Scissors",
     description:
-      "Rock, Paper, Scissors front-end application built with CRA according to specs provided by frontendmentor.io.",
+      "Responsive Rock, Paper, Scissors front-end application built with CRA according to specs provided by frontendmentor.io.",
     url: "https://josh-paper-scissors.netlify.app/",
     github: "https://github.com/jsuskin/josh-paper-scissors",
     demo: "",
-    screenshot: "",
+    screenshot: jpsScreenshot,
   },
   {
     name: "Memories App",
@@ -27,7 +32,7 @@ export const projects = [
       backend: "https://github.com/jsuskin/memories-backend",
     },
     demo: "",
-    screenshot: "",
+    screenshot: mammoriesScreenshot,
   },
   {
     name: "Scalar",
@@ -39,7 +44,7 @@ export const projects = [
       backend: "https://github.com/jsuskin/scalar",
     },
     demo: "",
-    screenshot: "",
+    screenshot: scalarScreenshot,
   },
   {
     name: "Shapebox",
