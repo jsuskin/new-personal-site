@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "Where In The World",
+    description:
+      "REST Countries API frontend project with search functionality and color theme switcher.",
+    url: "https://keen-jepsen-6a3830.netlify.app/",
+    github: "https://github.com/jsuskin/where-in-the-world",
+    demo: "",
+    screenshot: "",
+  },
+  {
     name: "Josh, Paper, Scissors",
     description:
       "Rock, Paper, Scissors front-end application built with CRA according to specs provided by frontendmentor.io.",
