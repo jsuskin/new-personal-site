@@ -3,8 +3,17 @@ import scalarScreenshot from "./assets/img/project-screenshots/scalar.png";
 import jpsScreenshot from "./assets/img/project-screenshots/josh-paper-scissors.png";
 import mammoriesScreenshot from "./assets/img/project-screenshots/mammories.png";
 import rtcChatScreenshot from "./assets/img/project-screenshots/web-rtc-video-chat.png";
+import worabcdefghijklmnopqrstuvwxyzdleScreenshot from "./assets/img/project-screenshots/worabcdefghijklmnopqrstuvwxyzdle.png";
 
 export const projects = [
+  {
+    name: "Worabcdefghijklmnopqrstuvwxyzdle",
+    description: "Wordle clones built with React",
+    url: "https://worabcdefghijklmnopqrstuvwxyzdle.netlify.app/",
+    github: "https://github.com/jsuskin/wordle-clone-client",
+    demo: "",
+    screenshot: worabcdefghijklmnopqrstuvwxyzdleScreenshot,
+  },
   {
     name: "Web RTC Video Chat App",
     description:
