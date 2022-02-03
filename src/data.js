@@ -7,8 +7,8 @@ import worabcdefghijklmnopqrstuvwxyzdleScreenshot from "./assets/img/project-scr
 
 export const projects = [
   {
-    name: "Worabcdefghijklmnopqrstuvwxyzdle",
-    description: "Wordle clones built with React",
+    name: "Wor/[a-z]/le",
+    description: "Wordle clone built with React.",
     url: "https://worabcdefghijklmnopqrstuvwxyzdle.netlify.app/",
     github: "https://github.com/jsuskin/wordle-clone-client",
     demo: "",
